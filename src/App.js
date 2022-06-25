@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Navbar from './Components/Navbar';
-// import Sidebar from './Components/Sidebar';
+import Sidebar from './Components/Sidebar';
 // import Footer from './Components/Footernewcomp/Footer';
 import BottomBar from './Components/Bottombar';
 import HeroSection from './Components/HeaderHome';
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <Router>
-      {/* <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar> */}
+      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
       <Navbar toggle={toggle}></Navbar>
       <Routes>
         {/* <Route path="/bigriggroup" element={<Home />} /> */}
