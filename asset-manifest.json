@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Delhi-Shopify/static/css/main.835c8769.css",
+    "main.js": "/Delhi-Shopify/static/js/main.62ed22b4.js",
+    "static/js/787.c4b04b56.chunk.js": "/Delhi-Shopify/static/js/787.c4b04b56.chunk.js",
+    "index.html": "/Delhi-Shopify/index.html",
+    "main.835c8769.css.map": "/Delhi-Shopify/static/css/main.835c8769.css.map",
+    "main.62ed22b4.js.map": "/Delhi-Shopify/static/js/main.62ed22b4.js.map",
+    "787.c4b04b56.chunk.js.map": "/Delhi-Shopify/static/js/787.c4b04b56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.835c8769.css",
+    "static/js/main.62ed22b4.js"
+  ]
+}
