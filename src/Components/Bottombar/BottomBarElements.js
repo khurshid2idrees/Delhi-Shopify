@@ -124,9 +124,9 @@ export const NavLinks = styled(LinkR)`
   &.active {
     color: #101010;
   }
-  &:hover {
-    color: #eaa959;
-  }
+  // &:hover {
+  //   color: #eaa959;
+  // }
   &.active {
     border-bottom: 3px solid #15cdfc;
   }

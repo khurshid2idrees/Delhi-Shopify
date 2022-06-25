@@ -24,7 +24,7 @@ export default function Myprod() {
                         <p class="text-gray-500 dark:text-gray-300">6 Items</p>
                         <div class="flex items-center">
                             <p class="text-gray-500 dark:text-gray-300">Sort</p>
-                            <select class="font-medium text-gray-700 bg-transparent dark:text-gray-500 focus:outline-none">
+                            <select class="font-medium text-black bg-transparent dark:text-gray-500 focus:outline-none">
                                 <option value="#">Recommended</option>
                                 <option value="#">Size</option>
                                 <option value="#">Price</option>
@@ -35,8 +35,8 @@ export default function Myprod() {
                     <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productfive.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Light Purple</h4>
-                            <p class="text-blue-500"> &#x20b9;399</p>
+                            <h4 class="mt-2 text-lg font-medium text-black dark:text-gray-200">Light Purple</h4>
+                            <p class="text-blue-500"> &#x20b9;359</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
@@ -51,7 +51,7 @@ export default function Myprod() {
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productsix.jpg" alt="T-Shirt"/>
                             <h4 class="mt-2 text-lg font-medium      dark:text-gray-200">Sky Blue</h4>
-                            <p class="text-blue-500">&#x20b9;399</p>
+                            <p class="text-blue-500">&#x20b9;359</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
@@ -65,8 +65,8 @@ export default function Myprod() {
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productseven.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Pink</h4>
-                            <p class="text-blue-500">&#x20b9;399</p>
+                            <h4 class="mt-2 text-lg font-medium text-black dark:text-gray-200">Pink</h4>
+                            <p class="text-blue-500">&#x20b9;359</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
@@ -80,8 +80,8 @@ export default function Myprod() {
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/producteight.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Lemon Green</h4>
-                            <p class="text-blue-500">&#x20b9;399</p>
+                            <h4 class="mt-2 text-lg font-medium text-black dark:text-gray-200">Lemon Green</h4>
+                            <p class="text-blue-500">&#x20b9;359</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
@@ -114,7 +114,7 @@ export default function Myprod() {
                         <p class="text-gray-500 dark:text-gray-300">6 Items</p>
                         <div class="flex items-center">
                             <p class="text-gray-500 dark:text-gray-300">Sort</p>
-                            <select class="font-medium text-gray-700 bg-transparent dark:text-gray-500 focus:outline-none">
+                            <select class="font-medium text-black bg-transparent dark:text-gray-500 focus:outline-none">
                                 <option value="#">Recommended</option>
                                 <option value="#">Size</option>
                                 <option value="#">Price</option>
@@ -125,7 +125,7 @@ export default function Myprod() {
                     <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productone.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Blue Box Check</h4>
+                            <h4 class="mt-2 text-lg font-medium text-black dark:text-gray-200">Blue Box Check</h4>
                             <p class="text-blue-500"> &#x20b9;399</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
@@ -155,7 +155,7 @@ export default function Myprod() {
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productthree.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Orange Box Check</h4>
+                            <h4 class="mt-2 text-lg font-medium text-black dark:text-gray-200">Orange Box Check</h4>
                             <p class="text-blue-500">&#x20b9;399</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
@@ -170,7 +170,7 @@ export default function Myprod() {
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productfour.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Navy Check</h4>
+                            <h4 class="mt-2 text-lg font-medium text-black dark:text-gray-200">Navy Check</h4>
                             <p class="text-blue-500">&#x20b9;399</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">

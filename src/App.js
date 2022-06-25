@@ -8,6 +8,7 @@ import Sidebar from './Components/Sidebar';
 import BottomBar from './Components/Bottombar';
 import HeroSection from './Components/HeaderHome';
 import Myprod from './Components/Myproducts/Myprod';
+import Contactform from './Components/ContactForm';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
       </Routes>
       <HeroSection></HeroSection>
       <Myprod/>
+      {/* <Contactform/> */}
       {/* <Footer /> */}
       {/* <FooterSection></FooterSection> */}
       <BottomBar />

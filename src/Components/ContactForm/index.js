@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 const Contactform = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -17,28 +17,28 @@ const Contactform = () => {
     setErrorMessage('');
     setButtonText('Send');
   };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setButtonText('Sending...');
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setButtonText('Sending...');
 
-    let data = {
-      name: name,
-      email: email,
-      message: message,
-    };
+  //   let data = {
+  //     name: name,
+  //     email: email,
+  //     message: message,
+  //   };
 
-    axios
-      .post('API_URI', data)
-      .then((res) => [setSuccess(true), resetForm()])
-      .catch(() => {
-        setError(true);
-        console.log('Message not sent');
-      });
-  };
+  //   axios
+  //     .post('API_URI', data)
+  //     .then((res) => [setSuccess(true), resetForm()])
+  //     .catch(() => {
+  //       setError(true);
+  //       console.log('Message not sent');
+  //     });
+  // };
 
   return (
     <div id="shadow" className="p-8 rounded-3xl shadow-2xl ">
-      <form class="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
+      <form class="w-full max-w-lg" >
         <div className=" ">
           <h1 className="text-Heading text-heading font-bold">Contact</h1>
           <p className="text-neautralform font-Poppins text-desc font-normal leading-7 mt-2"></p>
