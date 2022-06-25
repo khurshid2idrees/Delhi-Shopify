@@ -37,14 +37,14 @@ const   Navbar = ({ toggle }) => {
     <>
       <IconContext.Provider value={{ color: "#fff", size: "1em" }}>  
         <Nav scrollNav={scrollNav}>
-          <NavLogo to="/" onClick={toggleHome}>
+          {/* <NavLogo to="/" onClick={toggleHome}>
             <img
               className="w-56 h-44"
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg" 
               alt="logo"
               width="80%"
             />
-          </NavLogo>
+          </NavLogo> */}
 
           <NavMenu>
             <NavItem>
@@ -55,11 +55,11 @@ const   Navbar = ({ toggle }) => {
 
             <NavItem>
               <NavLinks to="/" onClick={toggleHome}>
-                TRAILER & LEASING
+                ABOUT
               </NavLinks>
             </NavItem>
 
-            <NavItem>
+            {/* <NavItem>
               {disabeled() === "true" ? (
                 <NavLinks>
                   <Link
@@ -78,11 +78,11 @@ const   Navbar = ({ toggle }) => {
                   TIRES & SERVICES
                 </NavLinks>
               )}
-            </NavItem>
+            </NavItem> */}
 
             <NavItem>
               <NavLinks to="/Contact" onClick={toggleHome}>
-                PARTZ
+                PRODUCTS 
               </NavLinks>
             </NavItem>
 
@@ -92,21 +92,21 @@ const   Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
 
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="/Contact" onClick={toggleHome}>
                 NEWS & EVENTS
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
 
             <MobileIcon onClick={toggle}>
               <FaBars color="#111" />
             </MobileIcon>
           </NavMenu>
-          <NavBtn>
+          {/* <NavBtn>
             <button className="text-white bg-yellow-bg w-80 h-16  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover text-2xl flex items-center justify-center ">
               (604) 864 3100
             </button>
-          </NavBtn>
+          </NavBtn> */}
         </Nav>
       </IconContext.Provider>
     </>

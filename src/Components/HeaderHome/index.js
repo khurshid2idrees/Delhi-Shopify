@@ -46,13 +46,10 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <ContainerMain>
-          <HeroP>BIG RIG GROUP</HeroP> 
+          <HeroP>Delhi Shopify</HeroP> 
 
           <Samosa>  
-            One-stop-shop for all your trucking needs. We are an authorized
-            dealer for Vanguard trailers servicing in British Columbia, Canada.
-            We are an established retailer of pre-owned trucks and trailers as
-            well
+           Luxury vogue & homosapiens
           </Samosa>
         </ContainerMain> 
 

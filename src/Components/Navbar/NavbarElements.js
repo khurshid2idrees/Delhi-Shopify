@@ -4,8 +4,8 @@ import { Link as LinkS } from "react-scroll";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  background-color: ${({ scrollNav }) => (scrollNav ? "#fff" : "#ffffffad")};
-
+  // background-color: ${({ scrollNav }) => (scrollNav ? "#fff" : "#ffffffad")};
+  background-color:#0000008c;
   height: 100px;
   //  margin-top:-80px
   width: 100%;
@@ -157,7 +157,8 @@ export const NavItem = styled.li`
   // }
 `;
 export const NavLinks = styled(LinkR)`
-  color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
+  // color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
+  color:#fff;
   display: flex;
   align-items: center;
   text-decoration: none;

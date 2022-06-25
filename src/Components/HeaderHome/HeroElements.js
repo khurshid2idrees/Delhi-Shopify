@@ -143,9 +143,6 @@ div{
     
 }
 
-    
-
-
 @media screen and (max-width: 768px) {
         flex-direction: column;
         padding: 0px 0px 0px 0px;
@@ -206,11 +203,11 @@ text-align:center;
 
 z-index: 2;
 color: #FFFFFF;
-border-bottom:4px solid;
+// border-bottom:4px solid;
     border-bottom-color: #FFAB53;
     display:block;
     margin:0 auto;
-    width:50%;
+    // width:50%;
     padding-top:20px; 
 &:hover{
     
@@ -452,7 +449,7 @@ cursor: pointer;
 export const Samosa = Styled.div`
 
 
-margin-bottom:10rem !important;
+
 margin-top:3%; 
 margin-bottom: 24px;
 font-family: sans-serif;

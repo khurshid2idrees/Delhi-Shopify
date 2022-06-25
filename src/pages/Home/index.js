@@ -1,9 +1,15 @@
-import React from 'react'
-
-export default function Home() {
+import React from 'react';
+import HeroSection from '../../Components/HeaderHome';
+// import { ContactFormContainer } from '../../Container/ContactFormContainer';
+function Home() {
   return (
-    <> 
-    {/* All home page components here  */}
+    <>
+      <HeroSection></HeroSection>
+     
+      {/* <Abouthome /> */}
+      {/* <ContactFormContainer></ContactFormContainer> */}
+
     </>
-  )
+  );
 }
+export default Home;
