@@ -5,7 +5,8 @@ export default function Myprod() {
    <>
   
 <section class="bg-white dark:bg-gray-900">
-        <div class="container px-6 py-8 mx-auto">
+
+<div class="container px-6 py-8 mx-auto">
             <div class="lg:flex lg:-mx-2">
                 <div class="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4">
                     <a href="#" class="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Men's Shirt</a>
@@ -18,7 +19,7 @@ export default function Myprod() {
            
                 </div>
 
-                <div class="mt-6 lg:mt-0 lg:px-2 lg:w-4/5 ">
+                <div class="mt-6 lg:mt-0 lg:px-2 lg:w-full ">
                     <div class="flex items-center justify-between text-sm tracking-widest uppercase ">
                         <p class="text-gray-500 dark:text-gray-300">6 Items</p>
                         <div class="flex items-center">
@@ -33,8 +34,8 @@ export default function Myprod() {
 
                     <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productone.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Blue Box Check</h4>
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productfive.jpg" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Light Purple</h4>
                             <p class="text-blue-500"> &#x20b9;399</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
@@ -48,8 +49,8 @@ export default function Myprod() {
                         </div>
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/producttwo.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium      dark:text-gray-200">Grenn Box Check</h4>
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productsix.jpg" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium      dark:text-gray-200">Sky Blue</h4>
                             <p class="text-blue-500">&#x20b9;399</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
@@ -63,8 +64,8 @@ export default function Myprod() {
                         </div>
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productthree.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Orange Box Check</h4>
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productseven.jpg" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Pink</h4>
                             <p class="text-blue-500">&#x20b9;399</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
@@ -78,8 +79,8 @@ export default function Myprod() {
                         </div>
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productfour.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Art T-shirt</h4>
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/producteight.jpg" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Lemon Green</h4>
                             <p class="text-blue-500">&#x20b9;399</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">
@@ -108,7 +109,7 @@ export default function Myprod() {
            
                 </div> */}
 
-                <div class="mt-6 lg:mt-0 lg:px-2 lg:w-full ">
+                <div class="mt-6 lg:mt-0 lg:px-2 lg:w-full">
                     <div class="flex items-center justify-between text-sm tracking-widest uppercase ">
                         <p class="text-gray-500 dark:text-gray-300">6 Items</p>
                         <div class="flex items-center">
@@ -185,6 +186,8 @@ export default function Myprod() {
                 </div>
             </div>
         </div>
+        
+      
     </section> 
    </>
   )
