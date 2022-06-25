@@ -28,7 +28,7 @@ function App() {
       <Myprod/>
       {/* <Footer /> */}
       {/* <FooterSection></FooterSection> */}
-      {/* <BottomBar /> */}
+      <BottomBar />
     </Router>
   );
 }

@@ -170,7 +170,7 @@ export default function Myprod() {
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://raw.githubusercontent.com/khurshid2idrees/Delhi-Shopify/master/src/assets/images/Products/productfour.jpg" alt="T-Shirt"/>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Art T-shirt</h4>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Navy Check</h4>
                             <p class="text-blue-500">&#x20b9;399</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-700">

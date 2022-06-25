@@ -6,7 +6,7 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   // background-color: ${({ scrollNav }) => (scrollNav ? "#fff" : "#ffffffad")};
   background-color:#0000008c;
-  height: 100px;
+  height: 80px;
   //  margin-top:-80px
   width: 100%;
   margin-top: 0px;
@@ -26,7 +26,9 @@ export const Nav = styled.nav`
     width: 100%;
     position: relative;
   }
-
+   @media only screen and (max-width:768px){
+    display:none;
+   }
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
@@ -170,10 +172,10 @@ export const NavLinks = styled(LinkR)`
   }
   &:hover {
     font-weight: 600;
-    border-bottom: 2px solid #ffab53 !important;   
+    border-bottom: 2px solid #fff !important;   
   }
   &.active {
-    border-bottom: 2px solid #ffab53 !important;
+    border-bottom: 2px solid #fff !important;
   }
 `;
 export const Bars = styled(FaBars)`

@@ -58,7 +58,7 @@ const BottomBar = ({ toggle }) => {
               onClick={toggleHome}
               className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
             >
-              <a to="/About">Trailer & Leasing</a>
+              <a to="/About">About</a>
             </NavLinks>
           </NavItem>
           <NavItem>
@@ -67,16 +67,7 @@ const BottomBar = ({ toggle }) => {
               onClick={toggleHome}
               className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
             >
-              <a to="/About">Partz</a>
-            </NavLinks>
-          </NavItem>
-          <NavItem>
-            <NavLinks
-              to="/About"
-              onClick={toggleHome}
-              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
-            >
-              <a to="/About">Tires & Services</a>
+              <a to="/About">Products</a>
             </NavLinks>
           </NavItem>
           <NavItem>
@@ -88,6 +79,15 @@ const BottomBar = ({ toggle }) => {
               <a to="/About">Contact</a>
             </NavLinks>
           </NavItem>
+          {/* <NavItem>
+            <NavLinks
+              to="/About"
+              onClick={toggleHome}
+              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
+            >
+              <a to="/About">Contact</a>
+            </NavLinks>
+          </NavItem> */}
           {/* <NavItem>
             <NavLinks to="/products" onClick={toggleHome}>
               <a
@@ -102,7 +102,7 @@ const BottomBar = ({ toggle }) => {
               </a>
             </NavLinks>
           </NavItem> */}
-          <NavItem>
+          {/* <NavItem>
             <NavLinks
               to="/Contact"
               onClick={toggleHome}
@@ -110,8 +110,8 @@ const BottomBar = ({ toggle }) => {
             >
               <a to="/Contact">News & Events</a>
             </NavLinks>
-          </NavItem>
-          <NavItem>
+          </NavItem> */}
+          {/* <NavItem>
             <NavLinks
               to="/Contact"
               onClick={toggleHome}
@@ -119,7 +119,7 @@ const BottomBar = ({ toggle }) => {
             >
               <a to="/Contact">USA</a>
             </NavLinks>
-          </NavItem>
+          </NavItem> */}
           {/* <NavItem>
             
           <NavLinks >
@@ -134,7 +134,7 @@ const BottomBar = ({ toggle }) => {
         </NavMenu>
         <NavBtn>
           <h3 className="2xl:text-desc text-navsmall md:text-sm lg:text-xs text-white">
-            @ Copyright Big Rig Group
+            @ Copyright Delhi Shopify
           </h3>
         </NavBtn>
         {/* <MobileIcon onClick={toggle}>

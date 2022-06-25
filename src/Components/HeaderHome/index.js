@@ -59,9 +59,9 @@ const HeroSection = () => {
           marketplace connects you to the people, technology, data and capacity
         </PCENTER> */}
         
-        <button className="btn block lg:hidden">
+        {/* <button className="btn block lg:hidden">
           <span className="btn-text">Contact us</span>
-        </button>
+        </button> */}
       </HeroContent>
       <HeroPromoContainer></HeroPromoContainer>
     </HeroContainer>

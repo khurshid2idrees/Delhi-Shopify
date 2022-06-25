@@ -125,8 +125,15 @@ div{
    
    
     @media screen and (max-width: 768px) {
-    display: none;
-    
+    display: block;
+    h2{
+        color:#fff;
+        font-size:2rem;
+    }
+    font-size:1.5rem;
+    width:100%;
+    justify-content:center;
+    align-items:center;
     
     }
     @media screen and (min-width: 1024px) {
@@ -135,10 +142,10 @@ div{
     
     
     }
-    @media screen and (max-width: 480px) {
-    display: none;
+    // @media screen and (max-width: 480px) {
+    // display: none;
     
-    }
+    // }
  
     
 }
@@ -223,7 +230,7 @@ color: #FFFFFF;
 @media screen and (max-width: 768px) {
     font-size: 54px;
     width: 65%;
-    padding: 0px 0px 50px 0px;
+    // padding: 0px 0px 50px 0px;
     text-align: center; 
 }
 /* @media screen and (max-width: 1024px) {
@@ -459,6 +466,10 @@ font-size: 1.25rem;
 margin-left:20%;
 line-height:120%;
 text-align:center;
+
+@media only screen and (max-width:768px){
+    margin-left:0px;
+}
 
 
 z-index: 2;

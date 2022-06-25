@@ -21,7 +21,7 @@ export const SlidebarContainer = styled.aside`
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;
 export const CloseIcon = styled(FaTimes)`
-  color: #fff;
+  color: #fff ;
 `;
 export const Icon = styled.div`
   position: absolute;
